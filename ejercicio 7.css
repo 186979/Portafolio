@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(37, 114, 37);
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+h1{
+    color: white;
+    text-align: left;
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+}
+p.uno{
+    border: black 10px solid;
+    border-radius: 38px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    background-color: white;
+}
+p.dos{
+    color: white;
+    border: rgb(150, 45, 4) 10px solid;
+    margin-right: 55%;
+    padding: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgba(201, 103, 46, 0.877);
+    border-width: 17px;
+    
+}
+p.tres{
+    color: white;
+    border: rgb(110, 76, 11) 10px solid;
+    margin-left: 55%;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(201, 132, 5, 0.76);
+}
+.cuatro{
+    color: white;
+    border: rgb(33, 133, 199) 5px dashed;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.616);
+}
