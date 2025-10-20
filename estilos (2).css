@@ -1,0 +1,108 @@
+/* Reset basico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Main */
+main {
+    padding: 2rem;
+}
+
+/* Introducción */
+.introduccion {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.introduccion h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+.introduccion p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Ejercicios */
+.ejercicios h2 {
+
+   text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    color: #2c3e50;
+}
+
+/* Cambiamos a diseño vertical */
+.grid-ejercicios {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto; /* Centra la columna */
+}
+
+.grid-ejercicios a {
+    display: block;
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.grid-ejercicios a:hover {
+    background: #1abc9c;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #2c3e50;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 480px) {
+    .grid-ejercicios {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}
